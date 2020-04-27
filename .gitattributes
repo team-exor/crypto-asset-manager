@@ -1,0 +1,13 @@
+*.config filter=crypt diff=crypt
+*.cs filter=crypt diff=crypt
+*.csproj filter=crypt diff=crypt
+*.ico filter=crypt diff=crypt
+*.png filter=crypt diff=crypt
+*.resx filter=crypt diff=crypt
+*.settings filter=crypt diff=crypt
+*.sln filter=crypt diff=crypt
+*.snk filter=crypt diff=crypt
+*.tt filter=crypt diff=crypt
+*_settings.txt filter=crypt diff=crypt
+*_plugin.txt filter=crypt diff=crypt
+*.user filter=crypt diff=crypt

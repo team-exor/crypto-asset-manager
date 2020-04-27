@@ -1,0 +1,81 @@
+v0.3.2 (Apr 27, 2020)
+NEW - First public beta release
+NEW - Added a new global setting option for "Show portfolio total when hovering over the tray icon"
+CHANGE - The global "Database Password" setting has been converted into a "Lock App" feature that makes it possible to protect data entered into the Crypto Asset Manager from prying eyes
+CHANGE - Only one instance of the application can be running on the same computer
+CHANGE - The "Plugins" item in the main treeview and right-click menu has been renamed to "Manage Plugins"
+CHANGE - The "Manage Plugins" item in the main treeview can now be collapsed to save space and loads collapsed by default
+
+v0.3.1 (Mar 18, 2020)
+NEW - Unlisted Coins - First release of the unlisted coins plugin
+NEW - Installer executable - Allows installing or upgrading your copy of the software using a wizard-like installer
+NEW - Added an 'Asset Manager Roadmap' link to the top of the treeview and right-click menu
+CHANGE - App Logo/Icon change
+CHANGE - Improved splash screen
+CHANGE - Improved shutdown speed
+CHANGE - Parent items in main treeview and right-click menu are now bolded
+CHANGE - Removed the app timer from the main screen and replaced with a new status bar that displays the status of the next plugin to expire
+CHANGE - About button on main screen has been moved into the new status bar
+CHANGE - Added tooltips for all tree and menu items
+BUGFIX - Coin Ticker - Extra tree and menu items were sometimes not being cleaned up properly after removing the last coin ticker
+BUGFIX - Coin Ticker - The add/edit coin ticker screen now does a better job of keeping the coin dropdown list in sync after coins and tickers are added or removed
+
+v0.3.0 (Jan 19, 2020)
+NEW - Crypto Calculator - First release of the crypto calculator plugin
+CHANGE - Updated layout for many of the settings screens
+CHANGE - Better handling of expired plugins
+CHANGE - Removed version text from main screen of all plugins
+
+v0.2.9 (Nov 30, 2019)
+NEW - Coin Ticker - First release of the coin ticker plugin
+CHANGE - Added an extra layer of security to all plugin database files to prevent data from being read by 3rd party apps
+CHANGE - CoinGecko - Added read-only 'Price' and 'Total Value' fields to the coin data screen
+CHANGE - Coinmarketcap - Added read-only 'Price' and 'Total Value' fields to the coin data screen
+BUGFIX - CoinGecko - Fixed incorrect % Change values
+BUGFIX - Coinmarketcap - Fixed incorrect % Change values
+
+v0.2.8 (Oct 05, 2019)
+NEW - Email Alert - First release of the email alert type plugin
+CHANGE - Optimized the shutdown sequence and added a shutdown msg
+CHANGE - Added scrollbars to the global settings screen for alert plugins that are too big to fit in the window
+CHANGE - Balloon Popup Alert - Added a "Restore Global Defaults" button to allow quickly resetting plugin alert settings to the defaults
+CHANGE - CoinGecko - Reduced the amount of data columns on the main manage coins screen and added all the extra fields to a new "additional data" tab on the coin data screen
+CHANGE - CoinGecko - Plugin is now enabled by default
+CHANGE - CoinGecko - Removed warning msg when the plugin is enabled and no alerts have been set
+CHANGE - CoinGecko - Made the following text changes: "Symbol" to "Ticker", "Value" to "Price", "Total (USD)" to "Total Value", "Price (USD)" to "Price", "24H Volume (USD)" to "Volume (24H)", "Market Cap (USD)" to "Market Cap", "24H High (USD)" to "24H High", "24H Low (USD)" to "24H Low", "All-Time-High (USD)" to "All Time High"
+CHANGE - Coinmarketcap - Reduced the amount of data columns on the main manage coins screen and added all the extra fields to a new "additional data" tab on the coin data screen
+CHANGE - Coinmarketcap - Removed warning msg when the plugin is enabled and no alerts have been set
+CHANGE - Coinmarketcap - Made the following text changes: "Symbol" to "Ticker", "Value" to "Price", "Total (USD)" to "Total Value", "Price (USD)" to "Price", "24H Volume (USD)" to "Volume (24H)", "Market Cap (USD)" to "Market Cap"
+CHANGE - Pushover Alert - Created a simplified pushover api implementation which reduces the overall app filesize and removes the need for an additional dependency file
+CHANGE - Pushover Alert - Added a "Restore Global Defaults" button to allow quickly resetting plugin alert settings to the defaults
+CHANGE - Pushover Alert - Width of the Pushover Alert settings tab for applicable plugins has been reduced by moving the msg options farther over to the left
+CHANGE - Twitter Feeds - Added integrated twitter api keys
+CHANGE - Twitter Feeds - Added simple instructions to the main manage twitter feeds screen for first-time use
+CHANGE - Twitter Feeds - Created a simplified twitter status api implementation which reduces the overall app filesize and removes the need for an additional dependency file
+CHANGE - Twitter Feeds - The first of the alert event options has been renamed to 'New Tweet' and can now also be toggled off and on
+
+v0.2.7 (Sep 06, 2019)
+NEW - Added a backup and restore feature to save and load copies of internal plugin databases
+BUGFIX - CoinGecko - Fixed a crash when API data is blank
+BUGFIX - Coinmarketcap - Fixed a crash when API data is blank
+BUGFIX - Twitter Feeds - Fixed a bug which sometimes caused valid twitter usernames to be disabled when no data is returned from the api
+CHANGE - Complete overhaul of the existing framework. This change brings improved app stability and quicker overall response times as a result
+
+v0.2.6 (Jul 15, 2019)
+NEW - CoinGecko - First release of the coingecko.com plugin
+CHANGE - Splash screen is now click and draggable
+CHANGE - Less aggressive obfuscation/encryption of the main executable to prevent false positives with anti-virus
+CHANGE - Coinmarketcap - Totally revamped how the plugin works; Now requires coins to be selected and added before being shown in the main list
+CHANGE - Coinmarketcap - Coin api data is now downloaded immidiately after starting the plugin
+CHANGE - Coinmarketcap - Added a button to 'Force API Update'
+CHANGE - Coinmarketcap - Added simple instructions to the main manage coins screen for first-time use
+CHANGE - Coinmarketcap - Added new columns for each coin: "24H Volume", "Marketcap", "Circulating Supply", "Total Supply" and "Max Supply"
+CHANGE - Twitter Feeds - Tweet api data is now downloaded immidiately after starting the plugin
+CHANGE - Twitter Feeds - Added a button to 'Force API Update'
+BUGFIX - The main and global settings windows were not always saving/loading the correct position and size
+BUGFIX - If an error msg was displayed on startup, it was sometimes hidden behind the splash screen and would appear to be loading endlessly
+BUGFIX - Better international keyboard layout support
+BUGFIX - Speed improvements for almost all screens
+
+v0.2.5 (May 27, 2019)
+NEW - First release to #vip group
