@@ -1,6 +1,6 @@
 # Crypto Asset Manager
 
-#### v0.3.2
+#### v0.3.3
 
 ## General Information
 
@@ -50,6 +50,7 @@ The software is currently in beta status, which will remain in effect until the 
   * **Random Password Generator Plugin:** quickly generate a new random password of a specific length.
 * **<ins>Web Feeds</ins>**
   * **Twitter Feeds Plugin:** monitor unlimited twitter accounts and receive an alert when new tweets are found.
+  * **YouTube Feeds Plugin:** monitor unlimited youtube channels and receive an alert when new videos are found.
 * **<ins>Misc Plugins</ins>**
   * **Coin Ticker Plugin:** display small, moveable ticker boxes on your desktop with current price info for your favourite coins and tokens.
 
