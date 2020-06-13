@@ -1,3 +1,18 @@
+v0.3.3 (Jun 14, 2020)
+NEW - YouTube Feeds - First release of the youtube feeds plugin
+NEW - Twitter Feeds - The official Exor twitter account is automatically added and enabled by default for new installs
+NEW - CoinGecko - Exor coin is automatically added and favourited by default for new installs
+NEW - Coinmarketcap - Exor coin is automatically added and favourited by default for new installs
+CHANGE - Added a 'Lock App Passphrase Confirmation' to the global settings screen to help reduce mistyped passphrases
+CHANGE - Added an icon to the About screen for the main application and all plugins
+CHANGE - CoinGecko - Added a coin URL button to the main coin list
+CHANGE - Coinmarketcap - Added a coin URL button to the main coin list
+CHANGE - Twitter Feeds - Added tweet URL links to the 'Saved Tweets' grid and popup window
+CHANGE - Twitter Feeds - Added a category option for Twitter usernames
+BUGFIX - Pushover Alert - Fixed a crash when alert msg length is greater than 1024 characters
+BUGFIX - Twitter Feeds - Fixed an issue that caused the timer to continue counting down when the last enabled twitter feed was automatically disabled due to being removed from twitter
+BUGFIX - Coin Ticker - Fixed a crash when removing a coin plugin that has active tickers
+
 v0.3.2 (Apr 27, 2020)
 NEW - First public beta release
 NEW - Added a new global setting option for "Show portfolio total when hovering over the tray icon"
