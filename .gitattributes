@@ -6,7 +6,6 @@
 *.resx filter=crypt diff=crypt
 *.settings filter=crypt diff=crypt
 *.sln filter=crypt diff=crypt
-*.snk filter=crypt diff=crypt
 *.tt filter=crypt diff=crypt
 *_settings.txt filter=crypt diff=crypt
 *_plugin.txt filter=crypt diff=crypt
