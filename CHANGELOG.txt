@@ -1,3 +1,14 @@
+v0.3.4 (Oct 26, 2020)
+NEW - Wallet Backup - First release of the wallet backup plugin
+CHANGE - Removed the Strong Name Key (.snk) file signing to allow for better compatibility when mix and matching plugin versions
+CHANGE - A number of framework changes to the main app and all plugins to accommodate for the new features from the wallet backup plugin
+CHANGE - All alert plugins now dynamically change control positions based on the length of the alert type text
+CHANGE - Added a better routine for deleting a plugin database after uninstalling
+BUGFIX - Fixed a couple issues that did not allow space characters on the front or end of the following fields: Main App Lock Passphrase and the Email Alert Authentication Password
+BUGFIX - Fixed a formatting glitch on the 'Portfolio Total' tree and menu items
+BUGFIX - A number of small miscellaneous fixes across the main application and all plugins
+BUGFIX - Email Alert - Added a 'Show Passsword' checkbox to show/hide the 'Auth Password'
+
 v0.3.3 (Jun 14, 2020)
 NEW - YouTube Feeds - First release of the youtube feeds plugin
 NEW - Twitter Feeds - The official Exor twitter account is automatically added and enabled by default for new installs

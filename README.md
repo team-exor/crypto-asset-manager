@@ -1,6 +1,6 @@
 # Crypto Asset Manager
 
-#### v0.3.3
+#### v0.3.4
 
 ## General Information
 
@@ -56,7 +56,8 @@ The software is currently in beta status, which will remain in effect until the 
 
 #### Premium Plugins
 
-* Coming soon
+* **<ins>Tools</ins>**
+  * **Wallet Backup:** Automatic backups of local wallets with optional encryption and cloud storage options.
 
 ---
 
